@@ -1,4 +1,4 @@
-# ☁️ Kakao Cloud: 인프라 구조 (리전 & 가용 영역) 및 VPC 설계
+# ☁️ Region 및 Availability Zone 개념 
 
 이 문서는 카카오클라우드의 최신 공식 가이드에 따라 물리적 위치(Region, AZ)와 논리적 네트워크(VPC)의 구성을 정리한 문서입니다.
 
