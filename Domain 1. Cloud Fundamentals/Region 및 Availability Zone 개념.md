@@ -37,9 +37,10 @@
 ### ✅ 헷갈리기 쉬운 포인트: "보안과 가용성"
 * **가용성 증대:** 하나의 리전 내에서 **여러 AZ**에 분산 배치 (데이터 센터 장애 대비)
 * **보안 수준 강화:** 리소스를 **여러 리전**에 배치하여 지리적/법적 안전성 확보
-
+### 🏗️ 아키텍처 설계도
+![카카오클라우드 아키텍처]('/Users/kep/Desktop/제목 없는 다이어그램.drawio.png')
 ---
-
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22%ED%8E%98%EC%9D%B4%EC%A7%80-1%22%20id%3D%22dbTvJ_uEHwGRvdfKSSkw%22%3E7ZhLT%2BMwEIB%2FjY%2BgPNvkmKRl98BKSNWK5bQyjdtkldYldV%2F8%2Bh3b4zppoYAI7QUJCXs8M3HG8008JX422%2F6o6aL4xXNWEc%2FJt8QfEM9zHTeCf1Ky05JeP9aCaV3mqGQFo%2FKZGUuUrsqcLVuKgvNKlIu2cMznczYWLRmta75pq0141X7qgk7ZkWA0ptWx9L7MRaGlkde38p%2BsnBbmyW4P329GjTK%2BybKgOd80RP6Q%2BFnNudCj2TZjlQyeiYu2u3lldb%2Bxms3Fewzi5dr7vQ3%2Bzh4nxZ0XiCf3fnbV015YfhQF6xZFS76qx%2ByEL6MndiZ40u0Ip7wWBZ%2FyOa2GVprWfDXPmdyhAzOrc8v5AoQuCP8xIXaYGHQlOIgKMatwlW1L8UeaX4c4e2isDLboWU12ZjIX9a5hJKcPzTVrpmbGDtOP1lMmTsTB2x8uUMH4jIEPsKtZRUW5bseZYnpO93r2BGGAh%2FiBAz1xfvZcbNRloDZFKdhoQdXhbgDjdoS19ZpWK7Qmw4SkIYkdMsxInJEEHqDHQyVMSeKTKFPClKQOiW5wHA1IEpDhgMQBiQIUJhlJI2meONKbdhX5JB6oQUBSfIE1qwXbNt7pOMZFA8Uecrex2LoRytCLH%2BIci5NvWO38WPodcuZ9c6bi4F%2BSM%2B8cnEH6p4oYGCjmLBkpiX1civsKO1DwWtjBH6AG8AFhZwIoCL4KoKhDgPxvgFQcgksC5J8DIPWlSTPEJc4MGa7CxZdLnkYnUrgAXpH8Dh1%2Bz9Qn6kwMheFXMRR3yFBwSYbcBkGWpzcYclsEWaA%2Bx9ArOfBuhpRpUtd011BY8HIulg3Pd1JgU6bntlOm7xxc%2Fd%2FQNylnk0nvwKbW%2FlU%2BcRPFZ2JnRh9NojjHWXcqXQ9S7JY%2BQovZSgtaldM5jMfgj9UgkJCW0MMluDAr81xnIFuWz7gTecgYaHAepiQcvFhEvF4Fu0wnXEXU7qb3tOJm4WqpUjYBBXixrfJj1mE0Vf917YkjNfDl5xxdQ3i1d1R8b6F5McnQxLn2wiBunbopua%2Bmoc0bo8InkyWk%2F2Hh6SA7gjPdnyIVcN1chOcq4b3%2BV5Vw1%2BuwhruX7dg%2FUMS7KLLHVdF7uYruXejij1bdI%2BCepVeHa0xi7zYAQ6vrHkgqbNedqjvSQLUUB5qmP5cS15rAVSpSLb3uS7oCLGgDtj%2BaTwAGU%2Ftjmz5D%2B5OlP%2FwP%3C%2Fdiagram%3E%3C%2Fmxfile%3E
 ## 🎬 시나리오 기반 장애 대응 전략
 
 ### [Scenario] 서비스 중단 없는 아키텍처 구성
