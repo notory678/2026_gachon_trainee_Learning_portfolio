@@ -62,6 +62,34 @@
 * **서브넷 생성 시:** 특정 AZ를 선택하여 네트워크 영역을 나눕니다.
 * **리소스 배치:** 인스턴스(BCS)나 데이터베이스를 생성할 때, 미리 만들어둔 **특정 AZ의 서브넷**을 선택하여 물리적 위치를 결정합니다.
 
+* graph TD
+    %% 노드 정의
+    A(시작: 리전 선택) --> B(VPC 생성)
+    B --> C(AZ 선택 및 서브넷 생성)
+    C --> D(리소스 배치: BCS/DB 생성)
+    D --> E(물리적 위치 확정)
+
+    %% 설명 및 제약사항 추가 (주석 형태)
+    subgraph "Phase 1: 물리적 거점 확정"
+    A
+    end
+
+    subgraph "Phase 2: 네트워크 구획 설계"
+    B
+    C
+    end
+
+    subgraph "Phase 3: 실무 자원 할당"
+    D
+    E
+    end
+
+    %% 클래스 연결
+    class A,B,C,D,E emphasized;
+
+    %% 스타일 정의: 진한 블루 배경에 흰색 글자
+    classDef emphasized fill:#01579b,stroke:#01579b,stroke-width:2px,color:#ffffff;
+
 ## 📒 [다중 AZ 구성 및 DNS 업무 실습](https://github.com/kakaocloud-edu/tutorial/blob/main/EssentialBasicCourse/PracticalTextbook/Lab07.md)
 
 ```mermaid
