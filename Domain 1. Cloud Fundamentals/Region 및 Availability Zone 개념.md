@@ -57,6 +57,21 @@
 
 # 3. [Scenario] 
 
+```mermaid
+graph LR
+    시작(시작) --> AZ생성(VPC 안에 새로운 AZ 생성하기)
+    AZ생성 --> VM생성(생성된 AZ에 VM 생성하기)
+    VM생성 --> DNS설정(DNS 서비스 설정)
+    DNS설정 --> DNS동작확인(DNS 서비스 동작 확인)
+    DNS동작확인 --> 종료(종료)
+
+    %% 강조
+    class AZ생성,VM생성,DNS설정,DNS동작확인 emphasized;
+    
+    %% 클래스 스타일
+    classDef emphasized fill:#f9f,stroke:#333,stroke-width:4px;
+```
+
 ## 🏗️ 서비스 중단 없는 아키텍처 구성
 
 1. **설정:** `kr-central-2` 리전에 VPC를 생성합니다.
