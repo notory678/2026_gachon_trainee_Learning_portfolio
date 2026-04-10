@@ -1,6 +1,6 @@
 # 📚 KakaoCloud Certified Essentials 학습 가이드
 
-본 러닝 포트폴리오는 KakaoCloud Certified Essentials (Exam Blueprint v1.0)를 기준으로 제작되었습니다. [cite_start]모든 콘텐츠는 **KakaoCloud 공식 기술 문서**를 근거로 구성되었으며, 응시자들이 방대한 기술 문서 속에서 핵심을 파악하고 실전 대응력을 높일 수 있도록 설계된 **학습 최적화 보조 자료**입니다 [cite: 10-11, 23].
+본 러닝 포트폴리오는 KakaoCloud Certified Essentials (Exam Blueprint v1.0)를 기준으로 제작되었습니다. 모든 콘텐츠는 KakaoCloud 공식 기술 문서를 근거로 구성되었으며, 응시자들이 방대한 기술 문서 속에서 핵심을 파악하고 실전 대응력을 높일 수 있도록 설계된 **학습 최적화 보조 자료**입니다 [cite: 10-11, 23].
 
 ---
 
