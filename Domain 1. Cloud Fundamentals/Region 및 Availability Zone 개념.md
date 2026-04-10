@@ -2,7 +2,7 @@
 
 # 1. 💡 핵심개념
 
-## 1. 리전 (Region)
+## 1. [리전 (Region)](https://docs.kakaocloud.com/start/region-az#region)
 리전은 지리적으로 독립된 위치에 존재하는 데이터 센터들의 거점, 하나 이상의 가용 영역(AZ)으로 구성됩니다.
 
 * **지리적 격리:** 각 리전은 서로 지리적으로 격리되어 있으며, 다른 리전과는 완전히 분리된 환경을 제공하며 리소스가 자동으로 복제되지 않습니다.
@@ -16,7 +16,7 @@
 
 ---
 
-## 2. 가용 영역 (Availability Zone, AZ)
+## 2. [가용 영역 (Availability Zone, AZ)]([https://docs.kakaocloud.com/start/region-az#region](https://docs.kakaocloud.com/start/region-az#availability-zone-az))
 리전 내에서 물리적으로 격리된 독립 데이터 센터 공간입니다.
 
 * **물리적 격리:** 모든 AZ는 **100km 이내의 거리**에 위치하면서도, 화재/지진 등 재해로부터 안전하도록 서로 격리되어 있습니다.
@@ -80,4 +80,4 @@
 *최종 업데이트: 2026-04-09*
 *작성일: 2026-04-09*
 
-<a href="(https://docs.kakaocloud.com/start/region-az#migrate-instance-to-different-availability-zone)" target="_blank">카카오클라우드 공식 문서 보기</a>
+
