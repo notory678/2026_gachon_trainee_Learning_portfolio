@@ -16,7 +16,7 @@
 
 ---
 
-## 2. [가용 영역 (Availability Zone, AZ)]([https://docs.kakaocloud.com/start/region-az#region](https://docs.kakaocloud.com/start/region-az#availability-zone-az))
+## 2. [가용 영역 (Availability Zone, AZ)](https://docs.kakaocloud.com/start/region-az#availability-zone-az)
 리전 내에서 물리적으로 격리된 독립 데이터 센터 공간입니다.
 
 * **물리적 격리:** 모든 AZ는 **100km 이내의 거리**에 위치하면서도, 화재/지진 등 재해로부터 안전하도록 서로 격리되어 있습니다.
