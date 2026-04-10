@@ -57,6 +57,8 @@
 
 # 3. [Scenario] 
 
+## 📒 [다중 AZ 구성 및 DNS 업무 실습](https://github.com/kakaocloud-edu/tutorial/blob/main/EssentialBasicCourse/PracticalTextbook/Lab07.md)
+
 ```mermaid
 graph LR
     시작(시작) --> AZ생성(VPC 안에 새로운 AZ 생성하기)
