@@ -52,14 +52,13 @@
 
 ```mermaid
 graph LR
-    A[서비스 가용성 요구 수준은?] --> B{데이터 센터 화재/정전 <br>대비가 필요한가?}
-    B -- Yes --> C{지진/홍수 등 대규모 <br>지역 재해 대비가 필요한가?}
-    B -- No --> D[단일 AZ 구성 <br>비용 최적화]
+    A[가용성 요구 수준은?] --> B{데이터 센터 화재/정전 <br>대비가 필요한가?}
+    B -- Yes --> C{지진/홍수 등 <br>지역 재해 대비가 필요한가?}
+    B -- No --> D[단일 AZ 구성 <br> = 비용 최적화]
     
-    C -- No --> E[Multi-AZ 구성 <br>단일 리전 내 2개 이상의 AZ에 분산 배치]
-    C -- Yes --> F[Multi-Region 구성 <br>비용 및 데이터 전송 지연 고려 필요]
+    C -- No --> E[Multi-AZ 구성 <br>단일 리전 내 2개 이상의 AZ에 서비스 분산]
+    C -- Yes --> F[Multi-Region 구성 <br> 비용 및 데이터 전송 지연 고려 필요]
     
-    E --> G[도입 기술: Load Balancer, <br>DB Read Replica 배치]
 ```
 
 ## 🔍문항 아이디어
